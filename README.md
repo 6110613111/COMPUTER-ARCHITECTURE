@@ -1,5 +1,6 @@
 # -CN210
 * [Clip 1](https://youtu.be/KGGrDlHpYPE)
+  * อธิบายคำสั่ง JUMP
 * [Clip 2](https://youtu.be/MUBjTEa2nQo)
 * [Clip 3](https://youtu.be/-e2fQUB4PIY)
 * [Clip 4](https://youtu.be/lUhIu3NA02Y)
