@@ -1,5 +1,5 @@
 # -CN210
-* <br>**[Clip 1]**(https://youtu.be/KGGrDlHpYPE)
+* [<br>**Clip 1**](https://youtu.be/KGGrDlHpYPE)
   * อธิบายคำสั่ง JUMP 
 * [Clip 2](https://youtu.be/MUBjTEa2nQo)
   * อธิบายหลักการทำงานของ CPU 
