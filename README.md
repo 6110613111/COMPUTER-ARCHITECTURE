@@ -6,13 +6,18 @@
             
             * ALU            func$rd,$rs,$st 
    ### <br>**I - Format**
-   | op | rs | rt | value/offset |         
-   |-----------------------------|        
+   | op | rs | rt | value or offset |         
+   |----|----|----|-----------------|        
    
             * ALUi           alui $rt,$rs,value                                
             * Data Tranfer   lw $rt,offset($rs) 
                              sw $rt,offset($rs) 
             * Branch         beq $rs,$tr,offset 
+   ### <br>**J - format**
+   | op | absolute address |
+   |----|------------------|
+   
+            * Jump           j address
                                              
                                          
    
