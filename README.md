@@ -4,7 +4,7 @@
    | op | rs | rt | rd | shamt | func |      
    |----|----|----|----|-------|------| 
    
-   <br>**ALU**             func$rd,$rs,$st 
+       <br>**ALU**             func$rd,$rs,$st 
    ### <br>**I - Format**
    | op | rs | rt | value or offset |         
    |--------------------------------|        <br>**ALUi**            alui $rt,$rs,value                                
