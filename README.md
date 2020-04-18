@@ -10,16 +10,17 @@
                
                
    ### <br>**I - Format**
-   | op | rs | rt | value or offset |         
-   |----|----|----|-----------------|        
-   
+   | โครงสร้าง | op | rs | rt | value or offset |         
+   |----------|----|----|----|-----------------|        
+   | จำนวนบิต  |  6 | 5  |  5 |      16         |
             * ALUi           alui $rt,$rs,value                                
             * Data Tranfer   lw $rt,offset($rs) 
                              sw $rt,offset($rs) 
             * Branch         beq $rs,$tr,offset 
    ### <br>**J - format**
-   | op | absolute address |
-   |----|------------------|
+   | โครงสร้าง | op | absolute address |
+   |----------|----|------------------|
+   | จำนวนบิต  | 6 |         26        |
    
             * Jump           j address
    ### <br>**Assembling JUMP Instructions**  
