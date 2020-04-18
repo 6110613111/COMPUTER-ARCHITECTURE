@@ -31,7 +31,7 @@
     
 
 
-* [<br>** homework Clip 1**](https://youtu.be/KGGrDlHpYPE)
+* [<br>**homework Clip 1**](https://youtu.be/KGGrDlHpYPE)
   * อธิบายคำสั่ง JUMP 
 * [<br>**Clip 2**](https://youtu.be/MUBjTEa2nQo)
   * อธิบายหลักการทำงานของ CPU 
