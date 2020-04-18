@@ -1,6 +1,7 @@
 # รางานวิชา สถาปัตยกรรมคอมพิวเตอร์ [CN210]
 ## <br>**MIPS Instruction format**
    - ทุกคำสั่งมีขนาด 32 บิต
+   - มีทั้งหมด 3 คำสั่ง ได้แก่ R-Format(คำสั่งใช้ในการคำนวณ),I-Format(คำสั่งย้ายข้อมูล)และJ-Format(คำสั่งกระโดดไปทำงานที่อื่น)
    ### <br>**R - Format**
   | โครงสร้าง | op | rs | rt | rd | shamt | func |      
   |----------|----|----|----|----|-------|------| 
@@ -30,7 +31,7 @@
     
 
 
-* [<br>**Clip 1**](https://youtu.be/KGGrDlHpYPE)
+* [<br>** homework Clip 1**](https://youtu.be/KGGrDlHpYPE)
   * อธิบายคำสั่ง JUMP 
 * [<br>**Clip 2**](https://youtu.be/MUBjTEa2nQo)
   * อธิบายหลักการทำงานของ CPU 
