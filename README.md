@@ -1,4 +1,9 @@
 # รางานวิชา สถาปัตยกรรมคอมพิวเตอร์ [CN210]
+## <br>**MIPS Instruction format**
+   ### <br>**R - Format**
+   | op | rs | rt | rd | shamt | func |
+    
+
 
 * [<br>**Clip 1**](https://youtu.be/KGGrDlHpYPE)
   * อธิบายคำสั่ง JUMP 
