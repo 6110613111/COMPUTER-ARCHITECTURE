@@ -1,13 +1,13 @@
 # รางานวิชา สถาปัตยกรรมคอมพิวเตอร์ [CN210]
 ## <br>**MIPS Instruction format**
    ### <br>**R - Format**
-   | op | rs | rt | rd | shamt | func |      
-   |----|----|----|----|-------|------| 
+      | op | rs | rt | rd | shamt | func |      
+      |----|----|----|----|-------|------| 
             
             * ALU            func$rd,$rs,$st 
    ### <br>**I - Format**
-   | op | rs | rt | value or offset |         
-   |----|----|----|-----------------|        
+      | op | rs | rt | value or offset |         
+      |----|----|----|-----------------|        
    
             * ALUi           alui $rt,$rs,value                                
             * Data Tranfer   lw $rt,offset($rs) 
