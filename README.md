@@ -7,7 +7,7 @@
             * ALU            func$rd,$rs,$st 
    ### <br>**I - Format**
    | op | rs | rt | value or offset |         
-   |--------------------------------|        
+   |------------------------------|        
    
             * ALUi           alui $rt,$rs,value                                
             * Data Tranfer   lw $rt,offset($rs) 
