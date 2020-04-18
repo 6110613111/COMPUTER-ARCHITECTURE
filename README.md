@@ -1,11 +1,11 @@
 # รางานวิชา สถาปัตยกรรมคอมพิวเตอร์ [CN210]
 ## <br>**MIPS Instruction format**
-### <br>**R - Format**
+   ### <br>**R - Format**
    | op | rs | rt | rd | shamt | func |      
    |----|----|----|----|-------|------| 
             
             * ALU            func$rd,$rs,$st 
-### <br>**I - Format**
+   ### <br>**I - Format**
    | op | rs | rt | value or offset |         
    |----|----|----|-----------------|        
    
@@ -18,7 +18,8 @@
    |----|------------------|
    
             * Jump           j address
-                                             
+   ### <br>**Assembling JUMP Instructions**  
+       
                                          
    
     
