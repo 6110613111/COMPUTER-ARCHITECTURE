@@ -2,6 +2,7 @@
 ## <br>**MIPS Instruction format**
    ### <br>**R - Format**
    | op | rs | rt | rd | shamt | func |
+   |----|----|----|----|-------|------|
     
 
 
