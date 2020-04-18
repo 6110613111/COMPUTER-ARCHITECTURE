@@ -1,10 +1,14 @@
 # รางานวิชา สถาปัตยกรรมคอมพิวเตอร์ [CN210]
 ## <br>**MIPS Instruction format**
+   - ทุกคำสั่งมีขนาด 32 บิต
    ### <br>**R - Format**
    | op | rs | rt | rd | shamt | func |      
    |----|----|----|----|-------|------| 
+   | 6  |  5 |  5 | 5  |   5   |   6  | จำนวนบิต
             
-            * ALU            func$rd,$rs,$st 
+            * ALU            func$rd,$rs,$st                
+               
+               
    ### <br>**I - Format**
    | op | rs | rt | value or offset |         
    |----|----|----|-----------------|        
