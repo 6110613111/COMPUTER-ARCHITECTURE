@@ -3,14 +3,16 @@
    ### <br>**R - Format**
    | op | rs | rt | rd | shamt | func |      
    |----|----|----|----|-------|------| 
-   
-       <br>**ALU**             func$rd,$rs,$st 
+            
+            * ALU            func$rd,$rs,$st 
    ### <br>**I - Format**
    | op | rs | rt | value or offset |         
-   |--------------------------------|        <br>**ALUi**            alui $rt,$rs,value                                
-                                             <br>**Data Tranfer**    lw $rt,offset($rs) 
-                                                                     sw $rt,offset($rs) 
-                                             <br>**Branch**          beq $rs,$tr,offset 
+   |--------------------------------|        
+   
+            * ALUi           alui $rt,$rs,value                                
+            * Data Tranfer   lw $rt,offset($rs) 
+                             sw $rt,offset($rs) 
+            * Branch         beq $rs,$tr,offset 
                                              
                                          
    
