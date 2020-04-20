@@ -36,16 +36,10 @@
    |       slt      |       R-type   | 000000 |  101010  |
    
    ### <br>**อธิบาย homework Clip-1** 
-  ![image](https://1drv.ms/u/s!AkrAr8fM928KgUywMnJxU3dGpi1U)                      
+  ![image](jumpping.JPG)                      
    
-       
-                                         
-   
-    
-
-
-* [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
-  * อธิบายคำสั่ง JUMP 
+ [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
+ 
 * [<br>**Clip 2**](https://youtu.be/MUBjTEa2nQo)
   * อธิบายหลักการทำงานของ CPU 
 * [<br>**Clip 3**](https://youtu.be/-e2fQUB4PIY)
