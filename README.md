@@ -45,7 +45,7 @@
         หลังจากนั้นก็ทำการดูค่า opcode 6 บิตหน้า ว่าคือคำสั่งอะไร แล้วให้ทำงานอะไร 
 * [<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
   ### Single-Cycle and Multi-Cycle
-  ![br](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.matichon.co.th%2Fwp-content%2Fuploads%2F2017%2F08%2F1.-92.jpg&imgrefurl=https%3A%2F%2Fwww.matichon.co.th%2Fpublicize%2Fnews_638587&tbnid=VTUZPUrzfTV6zM&vet=12ahUKEwivxYuo2fboAhVUSysKHbmDBLgQMygBegUIARD0AQ..i&docid=oBCxLczlBH_YpM&w=1078&h=719&q=ohe&authuser=3&ved=2ahUKEwivxYuo2fboAhVUSysKHbmDBLgQMygBegUIARD0AQ)
+  ![br](hhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fimg2.thaipng.com%2F20180323%2Feqe%2Fkisspng-water-display-resolution-clip-art-water-5ab48ce504fbd4.2484084315217819890204.jpg&imgrefurl=https%3A%2F%2Fwww.thaipng.com%2Fpng-6kqfkt%2F&tbnid=Xlnn1y-b3x9ICM&vet=12ahUKEwjO1-WY2vboAhXz7DgGHSwuAYcQMygCegUIARDvAQ..i&docid=ntBdOUAHiPoKFM&w=900&h=400&q=ohe%20png&authuser=3&ved=2ahUKEwjO1-WY2vboAhXz7DgGHSwuAYcQMygCegUIARDvAQ)
   ### <br>** อธิบาย homework Clip-3**
          ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
 * [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
