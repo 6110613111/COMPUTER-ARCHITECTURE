@@ -38,14 +38,16 @@
    ### <br>**อธิบาย homework Clip-1** 
   ![image](https://onedrive.live.com/?cid=0A6FF7CCC7AFC04A&id=A6FF7CCC7AFC04A%21204&parId=root&o=OneUp)                      
    
->>>>>>>>>>[<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
+[<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
  
   ### <br>** อธิบาย homework Clip-2**
         ในคลิป 2 จะพูดถึงการทำงานของ CPU ซึ่งเมื่อเราทำการเปิด switch CPU จะเริ่มอ่านคำสั่งที่บรรทัดแรก แล้วทำการแปลงเป็นเลขฐาน 2 
         หลังจากนั้นก็ทำการดูค่า opcode 6 บิตหน้า ว่าคือคำสั่งอะไร แล้วให้ทำงานอะไร 
->>>>>>>>>>[<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
-  
+[<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
+ 
+ ### Von Neuman and Harvard Architrctures
 ![br](https://vivadifferences.com/wp-content/uploads/2019/10/Von-Neuman-Vs-Harvard-Architecture.png)
+
       * Von Neuman 
          - มี memory 1 ชุด รวม instruction and data เข้าด้วยกัน ดังนั้นเครื่องจะมีขนาดใหญ่
       * Harvard Architrctures
@@ -55,13 +57,13 @@
   ### Multi-Cycle
   ![br](https://cseweb.ucsd.edu/~j2lau/cs141/multi_cycle_cpu_datapath.png)
   
-      Single-Cycle                                                Multi-Cycle
-       - ไม่มีประสิทธิภาพเท่าแบบ Multi-Cycle                             - มีประสิทธิภาพมากกว่าแบบ Single-Cycle
-       - memory 2 ชุด แยกออกจากกัน เป็นแบบ Harvard Architecture        - มี memory 1 ชุด เป็นแบบ Von Neuman Architecture
-       - มี ALU มากกว่า 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ      - มี ALU 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ         
+    Single-Cycle                                               Multi-Cycle
+     - ไม่มีประสิทธิภาพเท่าแบบ Multi-Cycle                            - มีประสิทธิภาพมากกว่าแบบ Single-Cycle
+     - memory 2 ชุด แยกออกจากกัน เป็นแบบ Harvard Architecture       - มี memory 1 ชุด เป็นแบบ Von Neuman Architecture
+     - มี ALU มากกว่า 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ     - มี ALU 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ         
   ### <br>** อธิบาย homework Clip-3**
          ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
->>>>>>>>>>[<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
+[<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
  
  
 * [<br>**homework Clip-4**](https://youtu.be/lUhIu3NA02Y)
