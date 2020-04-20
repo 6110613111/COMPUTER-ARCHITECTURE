@@ -45,7 +45,7 @@
         หลังจากนั้นก็ทำการดูค่า opcode 6 บิตหน้า ว่าคือคำสั่งอะไร แล้วให้ทำงานอะไร 
 * [<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
   ### Single-Cycle and Multi-Cycle
-  ![br](https://images.app.goo.gl/xrrnzwYVdDJKoCV89)
+  ![br](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.matichon.co.th%2Fwp-content%2Fuploads%2F2017%2F08%2F1.-92.jpg&imgrefurl=https%3A%2F%2Fwww.matichon.co.th%2Fpublicize%2Fnews_638587&tbnid=VTUZPUrzfTV6zM&vet=12ahUKEwivxYuo2fboAhVUSysKHbmDBLgQMygBegUIARD0AQ..i&docid=oBCxLczlBH_YpM&w=1078&h=719&q=ohe&authuser=3&ved=2ahUKEwivxYuo2fboAhVUSysKHbmDBLgQMygBegUIARD0AQ)
   ### <br>** อธิบาย homework Clip-3**
          ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
 * [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
