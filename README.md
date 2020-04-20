@@ -24,6 +24,17 @@
    | จำนวนบิต  | 6 |         26        |
    
             * Jump           j address
+   ### ALU Codeer
+   | Machine opcode | Instruct Format| Opcode | Function |
+   |----------------|----------------|--------|----------|
+   |        lw      |       I-type   | 100011 |  xxxxxx  |
+   |        sw      |       I-type   | 101011 |  xxxxxx  |
+   |       beq      |       I-type   | 000100 |  xxxxxx  |
+   |       add      |       R-type   | 000000 |  100000  |
+   |       and      |       R-type   | 000000 |  100010  |
+   |        or      |       R-type   | 000000 |  100101  |
+   |       slt      |       R-type   | 000000 |  101010  |
+   
    ### <br>**Assembling JUMP Instructions**  
        
                                          
