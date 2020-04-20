@@ -24,7 +24,7 @@
    | จำนวนบิต  | 6 |         26        |
    
             * Jump           j address
-   ### ALU Codeer
+   ### ALU decoder
    | Machine opcode | Instruct Format| Opcode | Function |
    |----------------|----------------|--------|----------|
    |        lw      |       I-type   | 100011 |  xxxxxx  |
@@ -35,14 +35,22 @@
    |        or      |       R-type   | 000000 |  100101  |
    |       slt      |       R-type   | 000000 |  101010  |
    
-   ### <br>**Assembling JUMP Instructions**  
+   ### <br>**อธิบาย homework Clip-1** 
+         ในคลิป 1 จะพูดถึงคำสั่ง Jump เป็นคำสั่งที่ให้กระโดดไปทำงานที่ตำแหน่งอื่น เมื่อทำเสร็จแล้วก็ให้กระโดดกลับมาทำงานที่ตำแหน่งเดิม 
+         คำสั่ง Jump มีทั้งหมด 32 บิต ประอบด้วย opcode 6 บิต และ address 32 บิต 
+         1.ทำหารหาaddress โดยให้นำค่า fib_exit มาแปลงเป็นเลขฐาน2 แล้วทำการ >>2
+               fib_exit = 0x81fc084c,pc = 0x81fc0812
+               | fib_exit ฐาน2 | 1000 0001 1111 1100 0000 1000 0100 1100 |
+               |---------------|-----------------------------------------|
+               | fib_exit >>2  | 0010 0000 0111 1111 0000 0010 0001 0011 |                          |
+   
        
                                          
    
     
 
 
-* [<br>**homework Clip 1**](https://youtu.be/KGGrDlHpYPE)
+* [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
   * อธิบายคำสั่ง JUMP 
 * [<br>**Clip 2**](https://youtu.be/MUBjTEa2nQo)
   * อธิบายหลักการทำงานของ CPU 
