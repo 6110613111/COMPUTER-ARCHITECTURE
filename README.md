@@ -36,17 +36,19 @@
    |       slt      |       R-type   | 000000 |  101010  |
    
    ### <br>**อธิบาย homework Clip-1** 
-  ![image](https://1drv.ms/u/s!AkrAr8fM928KgUywMnJxU3dGpi1U)                      
+  ![image](https://onedrive.live.com/?cid=0A6FF7CCC7AFC04A&id=A6FF7CCC7AFC04A%21204&parId=root&o=OneUp)                      
    
  [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
  
-* [<br>**Clip 2**](https://youtu.be/MUBjTEa2nQo)
+  ### <br>** อธิบาย homework Clip-2**
+  
+* [<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
   * อธิบายหลักการทำงานของ CPU 
-* [<br>**Clip 3**](https://youtu.be/-e2fQUB4PIY)
+* [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
   * อธิบายความต่างระหว่าง single-cycle and multy-cycle
-* [<br>**Clip 4**](https://youtu.be/lUhIu3NA02Y)
+* [<br>**homework Clip-4**](https://youtu.be/lUhIu3NA02Y)
   * อธิบายคำสั่ง lw ในcyclc
-* [<br>**Clip 5**](https://youtu.be/731dgwT8FfE)
+* [<br>**homework Clip-5**](https://youtu.be/731dgwT8FfE)
   * อธิบายคำสั่ง beq ในcyclc
-* [<br>**Clip 6**](https://youtu.be/WjuaH1VdVnQ)
+* [<br>**homework Clip-6**](https://youtu.be/WjuaH1VdVnQ)
   * อธิบายคำสั่ง R-type
