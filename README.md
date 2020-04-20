@@ -41,9 +41,13 @@
  [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
  
   ### <br>** อธิบาย homework Clip-2**
-  
+        ในคลิป 2 จะพูดถึงการทำงานของ CPU ซึ่งเมื่อเราทำการเปิด switch CPU จะเริ่มอ่านคำสั่งที่บรรทัดแรก แล้วทำการแปลงเป็นเลขฐาน 2 
+        หลังจากนั้นก็ทำการดูค่า opcode 6 บิตหน้า ว่าคือคำสั่งอะไร แล้วให้ทำงานอะไร 
 * [<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
-  * อธิบายหลักการทำงานของ CPU 
+  ### Single-Cycle and Multi-Cycle
+  ![br](https://images.app.goo.gl/5WreCteoR5wj8Qpw9)
+  ### <br>** อธิบาย homework Clip-3**
+         ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
 * [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
   * อธิบายความต่างระหว่าง single-cycle and multy-cycle
 * [<br>**homework Clip-4**](https://youtu.be/lUhIu3NA02Y)
