@@ -45,7 +45,7 @@
         หลังจากนั้นก็ทำการดูค่า opcode 6 บิตหน้า ว่าคือคำสั่งอะไร แล้วให้ทำงานอะไร 
 * [<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
   ### Single-Cycle and Multi-Cycle
-  ![br](https://images.app.goo.gl/mpuRRDk9dgKcmzNd8)
+  ![br](https://cseweb.ucsd.edu/~j2lau/cs141/single_cycle_cpu_datapath.png) ![br](https://cseweb.ucsd.edu/~j2lau/cs141/multi_cycle_cpu_datapath.png)
   ### <br>** อธิบาย homework Clip-3**
          ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
 * [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
