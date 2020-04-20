@@ -45,11 +45,11 @@
         หลังจากนั้นก็ทำการดูค่า opcode 6 บิตหน้า ว่าคือคำสั่งอะไร แล้วให้ทำงานอะไร 
 * [<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
   ### Single-Cycle and Multi-Cycle
-  ![br](https://images.app.goo.gl/5WreCteoR5wj8Qpw9)
+  ![br](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D_okzQg7OxP0&psig=AOvVaw0Khf2Nxs2Kwz4E2XON7XTZ&ust=1587461161232000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCx9-zX9ugCFQAAAAAdAAAAABAr)
   ### <br>** อธิบาย homework Clip-3**
          ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
 * [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
-  * อธิบายความต่างระหว่าง single-cycle and multy-cycle
+ 
 * [<br>**homework Clip-4**](https://youtu.be/lUhIu3NA02Y)
   * อธิบายคำสั่ง lw ในcyclc
 * [<br>**homework Clip-5**](https://youtu.be/731dgwT8FfE)
