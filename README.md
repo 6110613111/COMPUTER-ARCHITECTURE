@@ -36,7 +36,7 @@
    |       slt      |       R-type   | 000000 |  101010  |
    
    ### <br>**อธิบาย homework Clip-1** 
-  ![image](jumpping.JPG)                      
+  ![image](https://1drv.ms/u/s!AkrAr8fM928KgUywMnJxU3dGpi1U)                      
    
  [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
  
