@@ -40,7 +40,7 @@
    
 [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
  
-  ### <br>** อธิบาย homework Clip-2**
+  ### <br>**อธิบาย homework Clip-2**
         ในคลิป 2 จะพูดถึงการทำงานของ CPU ซึ่งเมื่อเราทำการเปิด switch CPU จะเริ่มอ่านคำสั่งที่บรรทัดแรก แล้วทำการแปลงเป็นเลขฐาน 2 
         หลังจากนั้นก็ทำการดูค่า opcode 6 บิตหน้า ว่าคือคำสั่งอะไร แล้วให้ทำงานอะไร 
 [<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
@@ -61,13 +61,21 @@
      - ไม่มีประสิทธิภาพเท่าแบบ Multi-Cycle                            - มีประสิทธิภาพมากกว่าแบบ Single-Cycle
      - memory 2 ชุด แยกออกจากกัน เป็นแบบ Harvard Architecture       - มี memory 1 ชุด เป็นแบบ Von Neuman Architecture
      - มี ALU มากกว่า 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ     - มี ALU 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ         
-  ### <br>** อธิบาย homework Clip-3**
+  ### <br>**อธิบาย homework Clip-3**
          ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
 [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
  
- 
-* [<br>**homework Clip-4**](https://youtu.be/lUhIu3NA02Y)
-  * อธิบายคำสั่ง lw ในcyclc
+ ### <br>**อธิบาย homework Clip-4**
+         ในคลิป 4 จะพูดถึงคำสั่ง lw in cycle ซึ่งมีทั้งหมด 5 step(T1-T5)
+         T1 เมื่อทำการเปิด switch PC จะทำการอ่านคำสั่งในmemory แล้วนำข้อมูลที่อ่านไปเก็บไว้ใน instruction register
+            ในขณะเดียวกัน PC จะนำ PCไปบวก4 ที่ ALU แล้วทำการเอา PC+4 มาเก็บไว้แทนที่ PCเดิม
+         T2 นำค่าที่เก็บอยู่ใน instruction register มาเก็บไว้ที่ A และB (register1(rs) and register2(rt))
+            ขณะเดียวกันนั้น ก็นำค่าoffset มาSign extend จาก 16 > 32 บิต แล้วนำมาเก็บไว้ที่ ALU
+         T3 นำค่า register1 ไปบวกกับ ค่าoffset ที่ALU แล้วนำค่าไปเก็บที่ ALUOut
+         T4 ส่งค่าที่เก็บใน ALUOut ไปให้memory แล้วmemory จะส่งค่านี้ไปเก็บไที่ memory data register
+         T5 ส่งค่าที่เก็บในmemory data register ไปให้ register2
+[<br>**homework Clip-4**](https://youtu.be/lUhIu3NA02Y)
+  
 * [<br>**homework Clip-5**](https://youtu.be/731dgwT8FfE)
   * อธิบายคำสั่ง beq ในcyclc
 * [<br>**homework Clip-6**](https://youtu.be/WjuaH1VdVnQ)
