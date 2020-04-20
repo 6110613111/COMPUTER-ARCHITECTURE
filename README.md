@@ -7,9 +7,7 @@
   |----------|----|----|----|----|-------|------| 
   | จำนวนบิต  | 6  |  5 |  5 |  5 |   5   |   6  | 
             
-            * ALU            func$rd,$rs,$st                
-               
-               
+            * ALU            func$rd,$rs,$st                             
    ### <br>**I - Format**
    | โครงสร้าง | op | rs | rt | value or offset |         
    |----------|----|----|----|-----------------|        
@@ -76,7 +74,22 @@
          T5 ส่งค่าที่เก็บในmemory data register ไปให้ register2
 [<br>**homework Clip-4**](https://youtu.be/lUhIu3NA02Y)
   
-* [<br>**homework Clip-5**](https://youtu.be/731dgwT8FfE)
-  * อธิบายคำสั่ง beq ในcyclc
-* [<br>**homework Clip-6**](https://youtu.be/WjuaH1VdVnQ)
-  * อธิบายคำสั่ง R-type
+  ### <br>**อธิบาย homework Clip-5**
+         ในคลิป 5 จะพูดถึงคำสั่ง beq in cycle ซึ่งมีทั้งหมด 3 step(T1-T3)
+         T1 เมื่อทำการเปิด switch PC จะทำการอ่านคำสั่งในmemory แล้วนำข้อมูลที่อ่านไปเก็บไว้ใน instruction register
+         T2 นำค่าที่เก็บอยู่ใน instruction register มาเก็บไว้ที่ A และB (register1(rs) and register2(rt))
+            ขณะเดียวกันนั้น ก็นำค่าoffset มาSign extend จาก 16 > 32 บิต แล้วนำมาเก็บไว้ที่ ALU
+         T3 นำค่า register1 กับ register2 มาลบกันที่ALU แล้วถ้าเป็นูนย์ คำสั่งก็จะไปทำงานที่ addressนั้น (address ก็คือค่า offset)
+[<br>**homework Clip-5**](https://youtu.be/731dgwT8FfE)
+ 
+  ### <br>**อธิบายhomework Clip-6**
+         ในคลิป 6 จะพูดถึงคำสั่ง R-type ซึ่งมีทั้งหมด 4 cycle(T1-T4)
+         T1 เมื่อทำการเปิด switch PC จะทำการอ่านคำสั่งในmemory แล้วนำข้อมูลที่อ่านไปเก็บไว้ใน instruction register
+            ในขณะเดียวกัน PC จะนำ PCไปบวก4 ที่ ALU แล้วทำการเอา PC+4 มาเก็บไว้แทนที่ PCเดิม
+         T2 นำค่าที่เก็บอยู่ใน instruction register มาเก็บไว้ที่ A และB (register1(rs) and register2(rt))
+            * ไม่มีค่า offset เพราะว่าเราทำคำสั่ง R-type
+         T3 นำค่า register1 กับ register2 มาคำนวณกันที่ALU แล้วเอาผลลัพธ์ที่ได้มาเก็บใน ALUOut
+         T4 นำค่า ALUOut ไปเก็บไว้ใน register2
+         
+[<br>**homework Clip-6**](https://youtu.be/WjuaH1VdVnQ)
+  
