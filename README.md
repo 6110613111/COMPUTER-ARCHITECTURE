@@ -60,8 +60,10 @@
          - มี memory 1 ชุด รวม instruction and data เข้าด้วยกัน ดังนั้นเครื่องจะมีขนาดใหญ่
       * Harvard Architrctures
          - มี memory 2 ชุด คือแยก instruction and data ออกจากกัน
+         
 ### Single-Cycle 
-  ![br](https://cseweb.ucsd.edu/~j2lau/cs141/single_cycle_cpu_datapath.png) 
+  ![br](https://cseweb.ucsd.edu/~j2lau/cs141/single_cycle_cpu_datapath.png)
+  
 ### Multi-Cycle
   ![br](https://cseweb.ucsd.edu/~j2lau/cs141/multi_cycle_cpu_datapath.png)
   
