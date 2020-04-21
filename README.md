@@ -42,15 +42,9 @@
    |        or      |       R-type   | 000000 |  100101  |
    |       slt      |       R-type   | 000000 |  101010  |
     
-### <br>**อธิบาย homework Clip-1** 
-   
+### <br>**อธิบาย homework Clip-1**   
 ![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/jumpping.JPG?raw=true)
-
-         ในคลิป 1 จะพูดถึงคำสั่ง Jump เป็นคำสั่งที่ให้กระโดดไปทำงานที่ตำปหน่งอื่น เมื่อทำเสร็จแล้วให้กระโดดมาทำงานที่ตำแหน่งเดิมต่อ
-         คำสั่ง Jump มีทั้งหมด 32 บิต ประกอบด้วย opcode 6 บิต และ address 26 บิต
-         1.ทำการหาค่า address โดยการนำค่า fib_exit มาแปลงเป็นเลขฐาน 2 แล้ว >>2 หลังจากนั้นตัด 4 บิตหน้าอออก
-         2.จะได้ค่า address 26 บิต แล้วเอาไปรวมกับค่า opcode ของ Jump                   
-   
+                  
 [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
  
 ### <br>**อธิบาย homework Clip-2**
