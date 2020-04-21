@@ -34,7 +34,11 @@
    |       slt      |       R-type   | 000000 |  101010  |
    
    ### <br>**อธิบาย homework Clip-1** 
-  ![image](https://onedrive.live.com/?cid=0A6FF7CCC7AFC04A&id=A6FF7CCC7AFC04A%21204&parId=root&o=OneUp)                      
+   
+         ในคลิป 1 จะพูดถึงคำสั่ง Jump เป็นคำสั่งที่ให้กระโดดไปทำงานที่ตำปหน่งอื่น เมื่อทำเสร็จแล้วให้กระโดดมาทำงานที่ตำแหน่งเดิมต่อ
+         คำสั่ง Jump มีทั้งหมด 32 บิต ประกอบด้วย opcode 6 บิต และ address 26 บิต
+         1.ทำการหาค่า address โดยการนำค่า fib_exit มาแปลงเป็นเลขฐาน 2 แล้ว >>2 หลังจากนั้นตัด 4 บิตหน้าอออก
+         2.จะได้ค่า address 26 บิต แล้วเอาไปรวมกับค่า opcode ของ Jump                   
    
 [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
  
@@ -60,10 +64,12 @@
      - memory 2 ชุด แยกออกจากกัน เป็นแบบ Harvard Architecture       - มี memory 1 ชุด เป็นแบบ Von Neuman Architecture
      - มี ALU มากกว่า 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ     - มี ALU 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ         
   ### <br>**อธิบาย homework Clip-3**
+  
          ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
 [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
  
  ### <br>**อธิบาย homework Clip-4**
+ 
          ในคลิป 4 จะพูดถึงคำสั่ง lw in cycle ซึ่งมีทั้งหมด 5 step(T1-T5)
          T1 เมื่อทำการเปิด switch PC จะทำการอ่านคำสั่งในmemory แล้วนำข้อมูลที่อ่านไปเก็บไว้ใน instruction register
             ในขณะเดียวกัน PC จะนำ PCไปบวก4 ที่ ALU แล้วทำการเอา PC+4 มาเก็บไว้แทนที่ PCเดิม
@@ -75,6 +81,7 @@
 [<br>**homework Clip-4**](https://youtu.be/lUhIu3NA02Y)
   
   ### <br>**อธิบาย homework Clip-5**
+  
          ในคลิป 5 จะพูดถึงคำสั่ง beq in cycle ซึ่งมีทั้งหมด 3 step(T1-T3)
          T1 เมื่อทำการเปิด switch PC จะทำการอ่านคำสั่งในmemory แล้วนำข้อมูลที่อ่านไปเก็บไว้ใน instruction register
          T2 นำค่าที่เก็บอยู่ใน instruction register มาเก็บไว้ที่ A และB (register1(rs) and register2(rt))
@@ -83,6 +90,7 @@
 [<br>**homework Clip-5**](https://youtu.be/731dgwT8FfE)
  
   ### <br>**อธิบายhomework Clip-6**
+  
          ในคลิป 6 จะพูดถึงคำสั่ง R-type ซึ่งมีทั้งหมด 4 cycle(T1-T4)
          T1 เมื่อทำการเปิด switch PC จะทำการอ่านคำสั่งในmemory แล้วนำข้อมูลที่อ่านไปเก็บไว้ใน instruction register
             ในขณะเดียวกัน PC จะนำ PCไปบวก4 ที่ ALU แล้วทำการเอา PC+4 มาเก็บไว้แทนที่ PCเดิม
