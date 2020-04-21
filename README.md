@@ -75,6 +75,7 @@
 ### <br>**อธิบาย homework Clip-3**
   
          ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
+         
 [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
  
 ### <br>**อธิบาย homework Clip-4**
