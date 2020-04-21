@@ -67,10 +67,11 @@
 ### Multi-Cycle
   ![br](https://cseweb.ucsd.edu/~j2lau/cs141/multi_cycle_cpu_datapath.png)
   
-    Single-Cycle                                               Multi-Cycle
-     - ไม่มีประสิทธิภาพเท่าแบบ Multi-Cycle                            - มีประสิทธิภาพมากกว่าแบบ Single-Cycle
-     - memory 2 ชุด แยกออกจากกัน เป็นแบบ Harvard Architecture       - มี memory 1 ชุด เป็นแบบ Von Neuman Architecture
-     - มี ALU มากกว่า 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ     - มี ALU 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ         
+    Single-Cycle                                              Multi-Cycle
+     - ไม่มีประสิทธิภาพเท่าแบบ Multi-Cycle                           - มีประสิทธิภาพมากกว่าแบบ Single-Cycle
+     - memory 2 ชุด แยกออกจากกัน เป็นแบบ Harvard Architecture      - มี memory 1 ชุด เป็นแบบ Von Neuman Architecture
+     - มี ALU มากกว่า 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ    - มี ALU 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ     
+     
 ### <br>**อธิบาย homework Clip-3**
   
          ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
