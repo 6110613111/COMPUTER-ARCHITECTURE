@@ -47,10 +47,7 @@
 [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
  
 ### <br>**อธิบาย homework Clip-2**
- 
-        ในคลิป 2 จะพูดถึงการทำงานของ CPU ซึ่งเมื่อเราทำการเปิด switch CPU จะเริ่มอ่านคำสั่งที่บรรทัดแรก แล้วทำการแปลงเป็นเลขฐาน 2 
-        หลังจากนั้นก็ทำการดูค่า opcode 6 บิตหน้า ว่าคือคำสั่งอะไร แล้วให้ทำงานอะไร 
-        
+1[br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic2.png?raw=true)       
 [<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
  
 ### Von Neuman and Harvard Architrctures
@@ -67,15 +64,8 @@
 ### Multi-Cycle
   ![br](https://cseweb.ucsd.edu/~j2lau/cs141/multi_cycle_cpu_datapath.png)
   
-    Single-Cycle                                              Multi-Cycle
-     - ไม่มีประสิทธิภาพเท่าแบบ Multi-Cycle                           - มีประสิทธิภาพมากกว่าแบบ Single-Cycle
-     - memory 2 ชุด แยกออกจากกัน เป็นแบบ Harvard Architecture      - มี memory 1 ชุด เป็นแบบ Von Neuman Architecture
-     - มี ALU มากกว่า 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ    - มี ALU 1 ตัวในการรองรับinputทั้งหมดในการทำงาน 1 รอบ     
-     
 ### <br>**อธิบาย homework Clip-3**
-  
-         ในคลิป 3 จะพูดถึงความแตกต่างระหว่าง single-cycle และ multi-cycle
-         
+![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic3.png?raw=true)         
 [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
  
 ### <br>**อธิบาย homework Clip-4**
