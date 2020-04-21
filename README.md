@@ -44,7 +44,8 @@
     
 ### <br>**อธิบาย homework Clip-1** 
    
-![br](https://drive.google.com/open?id=1ow1zFFnM4UfhCFkiAUxtteQZJG5TZl9A)
+![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/jumpping.JPG?raw=true)
+
          ในคลิป 1 จะพูดถึงคำสั่ง Jump เป็นคำสั่งที่ให้กระโดดไปทำงานที่ตำปหน่งอื่น เมื่อทำเสร็จแล้วให้กระโดดมาทำงานที่ตำแหน่งเดิมต่อ
          คำสั่ง Jump มีทั้งหมด 32 บิต ประกอบด้วย opcode 6 บิต และ address 26 บิต
          1.ทำการหาค่า address โดยการนำค่า fib_exit มาแปลงเป็นเลขฐาน 2 แล้ว >>2 หลังจากนั้นตัด 4 บิตหน้าอออก
