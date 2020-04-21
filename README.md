@@ -43,8 +43,7 @@
    |       slt      |       R-type   | 000000 |  101010  |
     
 ### <br>**อธิบาย homework Clip-1**   
-![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/jumpping.JPG?raw=true)
-                  
+![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/jumpping.JPG?raw=true)                  
 [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
  
 ### <br>**อธิบาย homework Clip-2**
