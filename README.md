@@ -47,7 +47,7 @@
 [<br>**homework Clip-1**](https://youtu.be/KGGrDlHpYPE)
  
 ### <br>**อธิบาย homework Clip-2**
-1[br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic2.png?raw=true)       
+![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic2.png?raw=true)       
 [<br>**homework Clip-2**](https://youtu.be/MUBjTEa2nQo)
  
 ### Von Neuman and Harvard Architrctures
