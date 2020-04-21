@@ -69,37 +69,14 @@
 [<br>**homework Clip-3**](https://youtu.be/-e2fQUB4PIY)
  
 ### <br>**อธิบาย homework Clip-4**
- 
-         ในคลิป 4 จะพูดถึงคำสั่ง lw in cycle ซึ่งมีทั้งหมด 5 step(T1-T5)
-         T1 เมื่อทำการเปิด switch PC จะทำการอ่านคำสั่งในmemory แล้วนำข้อมูลที่อ่านไปเก็บไว้ใน instruction register
-            ในขณะเดียวกัน PC จะนำ PCไปบวก4 ที่ ALU แล้วทำการเอา PC+4 มาเก็บไว้แทนที่ PCเดิม
-         T2 นำค่าที่เก็บอยู่ใน instruction register มาเก็บไว้ที่ A และB (register1(rs) and register2(rt))
-            ขณะเดียวกันนั้น ก็นำค่าoffset มาSign extend จาก 16 > 32 บิต แล้วนำมาเก็บไว้ที่ ALU
-         T3 นำค่า register1 ไปบวกกับ ค่าoffset ที่ALU แล้วนำค่าไปเก็บที่ ALUOut
-         T4 ส่งค่าที่เก็บใน ALUOut ไปให้memory แล้วmemory จะส่งค่านี้ไปเก็บไที่ memory data register
-         T5 ส่งค่าที่เก็บในmemory data register ไปให้ register2
-         
+![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic4.png?raw=true)        
 [<br>**homework Clip-4**](https://youtu.be/lUhIu3NA02Y)
   
 ### <br>**อธิบาย homework Clip-5**
-  
-         ในคลิป 5 จะพูดถึงคำสั่ง beq in cycle ซึ่งมีทั้งหมด 3 step(T1-T3)
-         T1 เมื่อทำการเปิด switch PC จะทำการอ่านคำสั่งในmemory แล้วนำข้อมูลที่อ่านไปเก็บไว้ใน instruction register
-         T2 นำค่าที่เก็บอยู่ใน instruction register มาเก็บไว้ที่ A และB (register1(rs) and register2(rt))
-            ขณะเดียวกันนั้น ก็นำค่าoffset มาSign extend จาก 16 > 32 บิต แล้วนำมาเก็บไว้ที่ ALU
-         T3 นำค่า register1 กับ register2 มาลบกันที่ALU แล้วถ้าเป็นูนย์ คำสั่งก็จะไปทำงานที่ addressนั้น (address ก็คือค่า offset)
-         
+![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic5.png?raw=true)         
 [<br>**homework Clip-5**](https://youtu.be/731dgwT8FfE)
  
 ### <br>**อธิบายhomework Clip-6**
-  
-         ในคลิป 6 จะพูดถึงคำสั่ง R-type ซึ่งมีทั้งหมด 4 cycle(T1-T4)
-         T1 เมื่อทำการเปิด switch PC จะทำการอ่านคำสั่งในmemory แล้วนำข้อมูลที่อ่านไปเก็บไว้ใน instruction register
-            ในขณะเดียวกัน PC จะนำ PCไปบวก4 ที่ ALU แล้วทำการเอา PC+4 มาเก็บไว้แทนที่ PCเดิม
-         T2 นำค่าที่เก็บอยู่ใน instruction register มาเก็บไว้ที่ A และB (register1(rs) and register2(rt))
-            * ไม่มีค่า offset เพราะว่าเราทำคำสั่ง R-type
-         T3 นำค่า register1 กับ register2 มาคำนวณกันที่ALU แล้วเอาผลลัพธ์ที่ได้มาเก็บใน ALUOut
-         T4 นำค่า ALUOut ไปเก็บไว้ใน register2
-         
+![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic6.png?raw=true)
 [<br>**homework Clip-6**](https://youtu.be/WjuaH1VdVnQ)
   
