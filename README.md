@@ -16,6 +16,7 @@
    | โครงสร้าง | op | rs | rt | value or offset |         
    |----------|----|----|----|-----------------|        
    | จำนวนบิต  |  6 | 5  |  5 |      16         |
+   
             * ALUi           alui $rt,$rs,value                                
             * Data Tranfer   lw $rt,offset($rs) 
                              sw $rt,offset($rs) 
@@ -30,6 +31,7 @@
             * Jump           j address
             
 ### ALU decoder
+
    | Machine opcode | Instruct Format| Opcode | Function |
    |----------------|----------------|--------|----------|
    |        lw      |       I-type   | 100011 |  xxxxxx  |
