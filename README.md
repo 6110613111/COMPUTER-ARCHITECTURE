@@ -79,5 +79,13 @@
 ### <br>**อธิบายhomework Clip-6**
 ![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic6.png?raw=true)
 [<br>**homework Clip-6**](https://youtu.be/WjuaH1VdVnQ)
-  
+
+![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/comp-arch-2012-choompol-110.JPG?raw=true)
+
+         - Single Cycle : ทุกคำสั่งทำงานจบพร้อมกันภายใน 1 cycle ดังนั้นจึงใช้เวลามากที่สุด
+         - Multiple Cycle : ทำงานหลายcycle
+         - Pipeline : ทำงานหลายcycle โดยคำสั่งเเรกยังทำงานไม่จบ คำสั่งต่อไปสามารถทำงานได้เลย ดังนั้นจึงใช้เวลาน้อยที่สุด
+
+### <br>**อธิบายhomework Clip-7**
+![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/Screen%20Shot%202563-04-28%20at%2015.00.36.png?raw=true) 
 [<br>**homework Clip-7**](https://youtu.be/0FaH8bjTsxM)
