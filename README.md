@@ -80,11 +80,23 @@
 ![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic6.png?raw=true)
 [<br>**homework Clip-6**](https://youtu.be/WjuaH1VdVnQ)
 
+## <br>**Pipelining**
 ![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/comp-arch-2012-choompol-110.JPG?raw=true)
 
          - Single Cycle : ทุกคำสั่งทำงานจบพร้อมกันภายใน 1 cycle ดังนั้นจึงใช้เวลามากที่สุด
          - Multiple Cycle : ทำงานหลายcycle
          - Pipeline : ทำงานหลายcycle โดยคำสั่งเเรกยังทำงานไม่จบ คำสั่งต่อไปสามารถทำงานได้เลย ดังนั้นจึงใช้เวลาน้อยที่สุด
+ 
+ ![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic7.png?raw=true)
+ 
+         จากรูปจะเห็นว่า - เมื่อถุงA ทำการอบอยู่ ถุงB ก็เริ่มทำการซักผ้า 
+                      - เมื่อถุงA ทำการพับผ้า ถุงB ก็เริ่มทำการอบผ้า ถุงC ก้เริ่มทำการซักผ้า
+                      - เมื่อถุงA เสร็จสิ้นการทำงาน ถุงB ก็เริ่มทำการพับผ้า ถุงC ก็เริ่มทำการอบผ้า
+                      - เมื่อถุงB เสร็จสิ้น ถุงC ก้เริ่มทำการพับผ้า
+                      - ถุงC เสร็จสิ้น
+                      * ขอไม่อธิบายถุงD
+         จากคำอธิบายการทำงานของการซักผ้า จะเห็นว่าเมื่อคำสั่งที่ 1 ยังไม่เสร็จสิ้นก้เริ่มทำคำสั่งต่อไปทันที ซึ่งการทำงานแบบนี้(Pipeline)
+         เป็นการประหยัดเวลาในการทำงาน
 
 ### <br>**อธิบายhomework Clip-7**
 ![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/Screen%20Shot%202563-04-28%20at%2015.00.36.png?raw=true) 
