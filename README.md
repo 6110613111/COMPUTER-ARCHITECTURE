@@ -80,3 +80,4 @@
 ![br](https://github.com/6110613319/COMPUTER-ARCHITECTURE/blob/master/pic6.png?raw=true)
 [<br>**homework Clip-6**](https://youtu.be/WjuaH1VdVnQ)
   
+[<br>**homework Clip-7**](https://youtu.be/0FaH8bjTsxM)
